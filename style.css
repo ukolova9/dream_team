@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1,
+p {
+  color: #fff;
+  text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: 10000px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  flex: 1;
+  padding: 10px;
+}
+.content {
+  flex: 3;
+  padding: 10px;
+  background-image: url("fon3.jpg");
+  background-size: cover;
+}
+ul {
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+  text-align: left;
+}
+p {
+  text-align: left;
+  margin: 10px;
+}
+.test {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #d6d4d4;
+  font-family: "Open Sans", sans-serif;
+}
